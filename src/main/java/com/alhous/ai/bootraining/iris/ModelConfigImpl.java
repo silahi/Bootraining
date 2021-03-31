@@ -8,7 +8,9 @@ import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.deeplearning4j.nn.weights.WeightInit;
 import org.nd4j.linalg.activations.Activation;
 import org.nd4j.linalg.learning.config.Nesterovs;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ModelConfigImpl implements ModelConfig {
     private double momentum = 0.1;
     private double learningRate = 0.9;

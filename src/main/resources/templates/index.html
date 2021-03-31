@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bootraining</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <th>Sepal Length</th>
+            <th>Sepal Width</th>
+            <th>Petal Length</th>
+            <th>Petal Width</th>
+            <th>Spece</th>
+        </thead>
+        <tbody>
+            <tr th:each="record:${irisData}">
+                <td th:text="${record.sepalLength}"></td>
+                <td th:text="${record.sepalWidth}"></td>
+                <td th:text="${record.petalLength}"></td>
+                <td th:text="${record.sepalWidth}"></td>
+                <td th:text="${record.spece}"></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>

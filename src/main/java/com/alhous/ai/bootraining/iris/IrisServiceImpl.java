@@ -11,7 +11,9 @@ import org.nd4j.linalg.dataset.DataSet;
 import org.nd4j.linalg.dataset.SplitTestAndTrain;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
 import org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler;
+import org.springframework.stereotype.Service;
 
+@Service
 public class IrisServiceImpl implements IrisService {
 
     @Override
