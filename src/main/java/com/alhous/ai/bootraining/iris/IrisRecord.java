@@ -65,4 +65,10 @@ public class IrisRecord {
         this.petalWidth = petalWidth;
     }
 
+    @Override
+    public String toString() {
+        return "IrisRecord [petalLength=" + petalLength + ", petalWidth=" + petalWidth + ", sepalLength=" + sepalLength
+                + ", sepalWidth=" + sepalWidth + ", spece=" + spece + "]";
+    }
+
 }
